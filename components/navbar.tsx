@@ -27,7 +27,7 @@ export default function Navbar() {
             Home
           </Button>
         </NextLink>
-        <NextLink href="/todo!" passHref>
+        <NextLink href="/cv" passHref>
           <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" color="textSecondary">
             CV
           </Button>
