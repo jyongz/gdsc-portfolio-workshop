@@ -46,36 +46,36 @@ export default function Intro() {
                 transition={{enter: {duration: 0.4, delay: 1.0}}}
             >
                 <Stack isInline spacing={4}>
-                    <Link href="https://github.com/" isExternal>
+                    <Link href="https://github.com/jyongz" isExternal>
                         <Button
                             leftIcon={<FaGithub color="#5F99FF"/>}
                             position="static"
                             size='md'
                             color="white"
-                            bg="#151415"
+                            bg="#000000"
                         >
                             Github
                         </Button>
                     </Link>
-                    <Link href="https://linkedin.com/" isExternal>
+                    <Link href="https://www.linkedin.com/in/jwcyong/" isExternal>
                         <Button
                             leftIcon={<FaLinkedin color="#5F99FF"/>}
                             position="static"
                             size='md'
                             color="white"
-                            bg="#151415"
+                            bg="#000000"
                         >
                             LinkedIn
                         </Button>
                     </Link>
-                    <Link href="mailto:gdsc@imperial.ac.uk" isExternal>
+                    <Link href="mailto:joshywc@gmail.com" isExternal>
                         <Button
                             leftIcon={<FaEnvelope fill="#5F99FF"/>}
                             transition="0.3s"
                             position="static"
                             size='md'
                             color="white"
-                            bg="#151415"
+                            bg="#000000"
                         >
                             Email
                         </Button>

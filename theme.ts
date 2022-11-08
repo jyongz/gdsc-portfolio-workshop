@@ -14,7 +14,7 @@ const fluidType = (minFont: number, maxFont: number) => {
 }
 
 const colors = {
-  background: '#12141D',
+  background: '#202020',
   secondary: '#080808',
   complement: '#5F99FF',
   displayColor: '#FFFFFF',
@@ -67,7 +67,7 @@ const overrides = {
   styles: {
     global: () => ({
       body: {
-        bg: "#000000",
+        bg: "#202020",
       },
     }),
   },
